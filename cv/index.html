@@ -1,0 +1,9 @@
+---
+layout: page
+---
+
+<div class="page">
+<h1 class="page__header">CV</h1>
+  {% capture cv %}{% include cv.md %}{% endcapture %}
+  {{ cv | markdownify }}
+</div>
