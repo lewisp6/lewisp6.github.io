@@ -3,6 +3,13 @@
   margin: 0 auto;
 }
 
+@media (max-width: 480px) {
+  .page {
+    margin-left: 7px;
+    margin-right: 7px
+  }
+}
+
 .page__header {
   font-size: 4rem;
 }

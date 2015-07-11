@@ -5,8 +5,38 @@
   margin-top: 10px;
   font-size: 1.2rem;
   border-right-style: solid;
-}
 
-.sidebar__list {
-  list-style: none;
+  @media (max-width: 768px) {
+      border-right-style: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+  &__list {
+    list-style: none;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    &--visible {
+      display: block;
+    }
+  }
+
+  &__button {
+    display: none;
+    background-color: palette(echo-test, nav);
+    border-style: none;
+
+    &:hover {
+      background-color: palette(echo-test, nav);
+      color: #000000;
+    }
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
 }
