@@ -1,19 +1,17 @@
 .page {
   width: 50%;
   margin: 0 auto;
-}
 
-@media (max-width: 480px) {
-  .page {
+  @media (max-width: 480px) {
     margin-left: 7px;
     margin-right: 7px
   }
-}
 
-.page__header {
-  font-size: 4rem;
-}
+  &__header {
+    font-size: 4rem;
+  }
 
-.page__content {
-  font-size: 1.2rem;
+  &__content {
+    font-size: 1.2rem;
+  }
 }
