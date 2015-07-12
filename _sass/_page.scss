@@ -1,12 +1,18 @@
 .page {
   width: 50%;
   margin: 0 auto;
-}
 
-.page__header {
-  font-size: 4rem;
-}
+  @media (max-width: 768px) {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+  }
 
-.page__content {
-  font-size: 1.2rem;
+  &__header {
+    font-size: 4rem;
+  }
+
+  &__content {
+    font-size: 1.2rem;
+  }
 }

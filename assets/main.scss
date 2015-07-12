@@ -1,9 +1,7 @@
 ---
 ---
 
-$text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+@import 'variables';
 
 body {
 	font-family: 'Vollkorn', serif;
@@ -60,14 +58,14 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
+	width: 136px;
+	height: 136px;
 	display: inline-block;
 	background-size: cover;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
-	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
+	border: 1px solid $text-color;
+	margin-left: auto;
 }
 
 /*** author ***/
@@ -147,11 +145,11 @@ footer {
 		margin-left: 54%;
 		padding: 0;
 	}
-
-	.links {
-		font-size: 1.3rem;
-	}
-
-	@import 'page';
-	@import 'sidebar';
 }
+
+.links {
+	font-size: 1.3rem;
+}
+
+@import 'page';
+@import 'sidebar';
