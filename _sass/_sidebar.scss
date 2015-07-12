@@ -11,6 +11,8 @@
       width: 100%;
       margin: 0;
       padding: 0;
+      float: none;
+      background-color: $text-color;
   }
 
   &__list {
@@ -25,15 +27,17 @@
     }
   }
 
+  &__item {
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+
   &__button {
     display: none;
-    background-color: palette(echo-test, nav);
     border-style: none;
-
-    &:hover {
-      background-color: palette(echo-test, nav);
-      color: #000000;
-    }
+    background-color: $text-color;
+    color: $button-color;
 
     @media (max-width: 768px) {
       display: block;
