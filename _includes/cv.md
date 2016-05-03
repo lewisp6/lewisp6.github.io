@@ -1,6 +1,6 @@
 [Download full pdf version]({{ site.url }}/assets/downloads/cv.pdf)
 
-##Skills
+## Skills
 
 ###Web Development
 
