@@ -13,12 +13,10 @@
 - JavaScript, CSS, HTML
 - Basic understanding of SASS, front-end methodologies like BEM
 - Grunt and Gulp task runners
-- Basic Sys Admin knowledge, Linux and Ant build scripts
 
 ###Databases
 - Experience with SQL, IBM DB2 and MS Access.
 - Query optimisation, database design and normalisation
-- MongoDB
 
 ###Communication and Team work
 
@@ -28,6 +26,13 @@
 ##Career
 
 ###Kurt Geiger - PHP Developer *(June 2015 - Present)*
+
+- Planning and implementing new features
+- Developing web applications for use in retail stores, working closely with UX, front-end and management team members
+- Bug fixing, Testing
+- Troubleshooting application problems with employees in retail stores
+- Building and integrating with Restful API’s
+- Completing work to tight deadlines
 
 ###Loft Digital - Developer *(October 2013 - June 2015)*
 
