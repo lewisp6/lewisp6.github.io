@@ -1,3 +1,9 @@
+.sidebar-wrap {
+  @media (max-width: 768px) {
+      border-bottom-style: solid;
+  }
+}
+
 .sidebar {
   float:left;
   width:200px;
@@ -7,45 +13,28 @@
   border-right-style: solid;
 
   @media (max-width: 768px) {
-      border-right-style: none;
-      width: 100%;
+      width: auto;
       margin: 0;
       padding: 0;
       float: none;
-      background-color: $text-color;
-      font-size: 1.6rem;
-      line-height: 2.9rem;
+      font-size: 1.5rem;
+      margin-left: 15px;
+  }
+
+  &__item {
+
+    @media (max-width: 768px) {
+      float: left;
+      padding-right: 20px;
+    }
+
   }
 
   &__list {
     list-style: none;
 
     @media (max-width: 768px) {
-      display: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    &--visible {
-      display: block;
-    }
-  }
-
-  &__item {
-    @media (max-width: 768px) {
-      text-align: center;
-      border-bottom-style: solid;
-      border-width: 1px;
-      border-color: $button-color;
-    }
-  }
-
-  &__link {
-    @media (max-width: 786px) {
-      &:hover {
-        text-decoration: none;
-        color: $button-color;
-      }
+      display: inline;
     }
   }
 
@@ -54,9 +43,5 @@
     border-style: none;
     background-color: $text-color;
     color: $button-color;
-
-    @media (max-width: 768px) {
-      display: block;
-    }
   }
 }
