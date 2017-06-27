@@ -1,66 +1,47 @@
----
-layout: default
----
-<div class="header-wrap">
-<header>
-    {% if site.compass.author %}
-    <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
-    {% endif %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Pearson &#8226; Web Developer</title>
+</head>
+<body>
+    <header><h1>Lewis Pearson - Web Developer</h1></header>
 
-    {% if site.compass.tagline %}
-    <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
-    {% endif %}
-    <div class='clear'></div>
-    <div class='social-icons'>
-        {% include content.html %}
-    </div>
-</header>
-</div>
-<div class="content-wrap">
-    <hr/>
     <div class="employment">
         <h2>Employment</h2>
         <h3>Kurt Geiger - Developer (2015 - Present)</h3>
+
         <p>Working with PHP, Magento and Node. Developing in store retail applications and e-commerce sites.</p>
+
         <h3>Loft Digital - Developer (2013 - 2015)</h3>
+
         <p>Worked with PHP, Zend Framework and Symfony.</p>
-        <p></p>
     </div>
-    <hr/>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>More than 4 years commercial Object Oriented PHP</li>
+            <li>Magento 1 and 2</li>
+            <li>Symfony 2, Zend Framework 2</li>
+            <li>NodeJS</li>
+            <li>Building and integrating with API’s</li>
+            <li>Test driven development, Unit Testing with PHPUnit</li>
+            <li>Behat testing</li>
+            <li>Version control, Git, SVN, Github</li>
+            <li>Javascript, HTML and CSS</li>
+            <li>JS Frameworks Backbone, Angular 1 and Vue.js</li>
+            <li>Javascript testing with Jasmine</li>
+            <li>Grunt, Gulp and Webpack</li>
+        </ul>
+    </div>
+
     <div class="education">
         <h2>Education</h2>
         <h3>MSc in Advanced Web Engineering</h3>
         <p>Conducted research in the area of Natural Language Processing.</p>
         <h3>BSc in Computer Science</h3>
     </div>
-    <hr/>
-    <div class="projects">
-        <h2>Projects</h2>
-        <h3><a href="http://shouldicycletoday.com" target="_blank">Should I Cycle Today</a></h3>
-        <p>
-            A site that pulls pollution data from an API and offers advice
-            on whether or not you should cycle in London.
-        </p>
-        <h3><a href="https://github.com/lewisp6/london-air" target="_blank">london-air</a></h3>
-        <p>A Node wrapper for the London Air API.</p>
-    </div>
-    <hr/>
-    <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-        <li>More than 3½ years commercial Object Oriented PHP
-        <li>Magento 1 and 2</li>
-        <li>Symfony 2, Zend Framework 2</li>
-        <li>NodeJS</li>
-        <li>Building and integrating with API’s</li>
-        <li>Test driven development, Unit Testing with PHPUnit</li>
-        <li>Behat testing</li>
-        <li>Version control, Git, SVN, Github</li>
-        <li>Javascript, HTML and CSS</li>
-        <li>JS Frameworks Backbone, Angular 1 and Vue.js</li>
-        <li>Javascript testing with Jasmine</li>
-        <li>Grunt, Gulp and Webpack</li>
-    </ul>
-    </div>
-    <hr/>
-</div>
+</body>
+</html>
