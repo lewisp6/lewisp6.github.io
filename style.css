@@ -1,0 +1,80 @@
+header {
+  font-family: 'Poiret One', cursive;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #FFE2E6;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h1 span {
+  border-bottom:thin outset;
+  border-top: thick outset;
+}
+
+h2 span {
+  border-bottom:medium outset;
+  border-top: thin outset;
+}
+
+h2 a {
+  font-size: 1.2em;
+  border: none;
+}
+
+h2 a span {
+  border-bottom:thin outset;
+  border-top: thick outset;
+}
+
+.nav a {
+  font-size: 1.3em;
+  border: none;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  margin: 15px;
+}
+
+.main {
+}
+
+.content {
+  padding: 5px;
+  max-width: 700px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-top-left-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-width: 0.5em;
+  background-color: #fff2f4;
+}
+
+.link-wrap {
+  margin: 30px;
+  position: relative
+}
+
+a {
+  border-top: medium inset;
+  border-left: thin solid;
+  text-decoration: none;
+  color: #0440a0;
+  font-size: 3em;
+  padding: 3px;
+}
+
+#work { position:absolute; left:20px; top:20px; }
+#projects { position:absolute; left:120px; top:120px; }
+#education { position:absolute; left:220px; top: 220px; }
+#about { position:absolute; left:420px; top:320px; }
