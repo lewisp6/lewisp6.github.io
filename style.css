@@ -4,16 +4,33 @@ header {
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #FFE2E6;
+  /* background-color: #FFE2E6; */
+  background-color: white;
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 8em;
+  text-align: center;
+  margin-top: 0px;
+  /* text-shadow: 5px 4px 0px rgba(249, 150, 150, 0.75); */
+  /* border-bottom:thin outset;
+  border-top: thick outset; */
 }
 
-h1 span {
-  border-bottom:thin outset;
-  border-top: thick outset;
+.header-wrap {
+  margin: 15%;
+  margin-top: 0;
+  margin-bottom: -100px;
+}
+
+.header-wrap-sub h1 {
+  font-size: 5em;
+  border: none;
+  text-shadow: none;
+}
+
+.header-wrap-sub h2 {
+  text-align: center;
 }
 
 h2 span {
@@ -47,9 +64,9 @@ h2 a span {
 .main {
 }
 
-.content {
+/* .content {
   padding: 5px;
-  max-width: 700px;
+  max-width: auto;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -58,23 +75,43 @@ h2 a span {
   border-bottom-left-radius: 39px;
   border-width: 0.5em;
   background-color: #fff2f4;
+} */
+
+.content {
+  padding: 5px;
+  max-width: auto;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-style: none;
+  border-top-left-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-width: 0.5em;
 }
 
-.link-wrap {
-  margin: 30px;
-  position: relative
-}
-
-a {
+/* a {
   border-top: medium inset;
   border-left: thin solid;
   text-decoration: none;
   color: #0440a0;
   font-size: 3em;
   padding: 3px;
-}
+} */
 
-#work { position:absolute; left:20px; top:20px; }
+/* #work { position:absolute; left:20px; top:20px; }
 #projects { position:absolute; left:120px; top:120px; }
 #education { position:absolute; left:220px; top: 220px; }
-#about { position:absolute; left:420px; top:320px; }
+#about { position:absolute; left:420px; top:320px; } */
+
+.job {
+  margin: 150px;
+}
+
+.job h2 {
+  font-size: 3em;
+  float: right;
+}
+
+.section-header h2 {
+  font-size: 4em;
+  margin-bottom: -45px;
+}
