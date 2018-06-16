@@ -110,7 +110,10 @@ h2 a span {
 #about { position:absolute; left:420px; top:320px; } */
 
 .job {
-  margin: 150px;
+  width: 100%;
+  margin-bottom: 150px;
+  margin-right: 150px;
+  float: right;
 }
 
 .job h2 {
@@ -121,4 +124,8 @@ h2 a span {
 .section-header h2 {
   font-size: 4em;
   margin-bottom: -45px;
+}
+
+.section {
+  display:inline-block;
 }
