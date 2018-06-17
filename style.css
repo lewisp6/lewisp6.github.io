@@ -1,0 +1,150 @@
+header {
+  font-family: 'Poiret One', cursive;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  /* background-color: #FFE2E6; */
+  background-color: white;
+}
+
+h1 {
+  font-size: 8em;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 100px;
+  }
+}
+
+.sub-content {
+  font-size: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+@media (max-width: 750px) {
+  .sub-content {
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+}
+
+.header-wrap {
+  margin: 15%;
+  margin-top: 0;
+  margin-bottom: -100px;
+}
+
+.header-wrap-sub h1 {
+  font-size: 5em;
+}
+
+@media (max-width: 750px) {
+  .header-wrap-sub h1 {
+    font-size: 3em;
+    margin-bottom: 35px;
+  }
+}
+
+.header-wrap-sub h2 {
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .header-wrap-sub h2 {
+    text-align: left;
+  }
+}
+
+h2 span {
+  border-bottom:medium outset;
+  border-top: thin outset;
+}
+
+h2 a {
+  font-size: 1.2em;
+  border: none;
+}
+
+h2 a span {
+  border-bottom:thin outset;
+  border-top: thick outset;
+}
+
+.nav a {
+  font-size: 1.3em;
+  border: none;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  margin: 15px;
+}
+
+.main {
+}
+
+.content {
+  padding: 5px;
+  max-width: auto;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-style: none;
+  border-top-left-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-width: 0.5em;
+}
+
+.job {
+  width: 100%;
+  margin-bottom: 150px;
+  margin-right: 150px;
+}
+
+@media (max-width: 750px) {
+  .job {
+    margin-bottom: 50px;
+  }
+}
+
+.job h2 {
+  font-size: 3em;
+}
+
+@media (max-width: 750px) {
+  .job h2 {
+    font-size: 2em;
+  }
+}
+
+.job-content {
+}
+
+.section-header h2 {
+  font-size: 4em;
+}
+
+
+@media (max-width: 750px) {
+  .section-header h2 {
+    font-size: 2em;
+  }
+}
+
+.section {
+  display:inline-block;
+  width: 100%;
+  border-bottom-style: inset;
+  border-bottom-width: thick;
+}
