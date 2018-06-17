@@ -12,9 +12,6 @@ h1 {
   font-size: 8em;
   text-align: center;
   margin-top: 0px;
-  /* text-shadow: 5px 4px 0px rgba(249, 150, 150, 0.75); */
-  /* border-bottom:thin outset;
-  border-top: thick outset; */
 }
 
 .sub-content {
@@ -71,19 +68,6 @@ h2 a span {
 .main {
 }
 
-/* .content {
-  padding: 5px;
-  max-width: auto;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: double;
-  border-top-left-radius: 39px;
-  border-bottom-left-radius: 39px;
-  border-width: 0.5em;
-  background-color: #fff2f4;
-} */
-
 .content {
   padding: 5px;
   max-width: auto;
@@ -95,37 +79,27 @@ h2 a span {
   border-width: 0.5em;
 }
 
-/* a {
-  border-top: medium inset;
-  border-left: thin solid;
-  text-decoration: none;
-  color: #0440a0;
-  font-size: 3em;
-  padding: 3px;
-} */
-
-/* #work { position:absolute; left:20px; top:20px; }
-#projects { position:absolute; left:120px; top:120px; }
-#education { position:absolute; left:220px; top: 220px; }
-#about { position:absolute; left:420px; top:320px; } */
-
 .job {
   width: 100%;
   margin-bottom: 150px;
   margin-right: 150px;
-  float: right;
 }
 
 .job h2 {
   font-size: 3em;
-  float: right;
+}
+
+.job-content {
 }
 
 .section-header h2 {
   font-size: 4em;
-  margin-bottom: -45px;
+
 }
 
 .section {
   display:inline-block;
+  width: 100%;
+  border-bottom-style: inset;
+  border-bottom-width: thick;
 }
